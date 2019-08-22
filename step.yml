@@ -256,7 +256,7 @@ inputs:
 
         In case of leaving this input on default value:
 
-        `set -o pipefail && XCODEBUILD_TEST_COMMAND | xcpretty --color --report html --color --report html --output "${BITRISE_DEPLOY_DIR}/xcode-test-results-${BITRISE_SCHEME}.html"
+        `set -o pipefail && XCODEBUILD_TEST_COMMAND | xcpretty --color --report html --output "${BITRISE_DEPLOY_DIR}/xcode-test-results-${BITRISE_SCHEME}.html"
 
         If you want to add more options, list that separated by space character.
 outputs:
